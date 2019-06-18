@@ -1,0 +1,115 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #D9D9D9;
+}
+
+i{
+  color: #271FFB;
+}
+
+input{
+  width: 100%;
+  border: 1px solid #a1a1a1;
+  padding: 1px;
+}
+
+h3{
+  font-size: 15px;
+}
+
+a{
+  text-decoration: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #271FFB;
+  font-weight: bold;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #E1E1E1;
+}
+
+tr:nth-child(odd) {
+  background-color: white;
+}
+
+
+.main-panel{
+  margin: 0 auto;
+  width: 350px;
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-family: 'Gugi', cursive;
+  padding: 5px 0 15px 0;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px #271FFB;
+}
+
+.main-footer{
+  margin: 20px auto;
+  width: 350px;
+  background-color: white;
+  font-family: sans-serif;
+  text-align: center;
+  font-family: 'Gugi', cursive;
+  padding: 5px 0 10px 0;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px #271FFB;
+}
+
+.form-login{
+  width: 250px;
+  align-self: center;
+  display: inline-block;
+}
+
+.buttonGeneric{
+  border: none;
+  width: 100%;
+  background-color: #271FFB;
+  height: 25px;
+  color: white;
+  font-weight: bold;
+  border-radius: 2px;
+}
+
+.buttonGeneric:hover {
+  background-color: #325281; /* Green */
+  color: white;
+  cursor: pointer;
+}
+
+.fieldStyle{
+  margin: 5px;
+}
+
+
+#logo{
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 35px;
+}
+
+#textoLogin{
+  font-size: 12px;
+}
+
+#textTerms{
+  font-size: 8px;
+  float: right;
+}

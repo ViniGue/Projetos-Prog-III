@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Contatos - Registro</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gugi|Nanum+Gothic" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <section class="main-panel">
+        <header>
+          <h1 id="logo">
+            <i class="fas fa-address-book"></i>
+            Contatos
+          </h1>
+          <h3 id="textoLogin">Cadastre-se para adicionar seu contato a lista do Guedin</h3>
+        </header>
+        <div>
+          <form class="form-login" action="php/processa.php" method="GET">
+            <div class="fieldStyle">
+              <input type="text" name="nome" required placeholder="Nome completo">
+            </div>
+            <div class="fieldStyle">
+              <input type="text" name="apelido" placeholder="Seu apelido">
+            </div>
+            <div class="fieldStyle">
+              <input type="email" name="email" required placeholder="Seu e-mail">
+            </div>
+            <div class="fieldStyle">
+              <input type="text" name="telefone" required placeholder="Seu telefone para contato">
+            </div>
+            <div id="boxTerms">
+              <input id="inputCheckbox" type="checkbox" name="concordo" required value="">
+              <label id="textTerms" for="concordo">Aceito ser contatado(a) a qualquer hora do dia para assuntos urgentes ou não.</label>
+            </div>
+            <div>
+              <input class="buttonGeneric" type="submit" value="Adicionar Contato">
+            </div>
+          </form>
+        </div>
+      </section>
+      <section class="main-footer">
+        <footer>
+          <h3>Quer ver os contatos do Guedin?</h3>
+          <a href="listaContatos.php"><button class="buttonGeneric" style="width: 150px;">Listar contatos</button></a>
+        </footer>
+      </section>
+    </main>
+  </body>
+</html>
